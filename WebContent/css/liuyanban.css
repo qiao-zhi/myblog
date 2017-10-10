@@ -1,0 +1,101 @@
+/*娆㈣繋璺戦┈鐏�*/
+#welcome {
+	display: block;
+	width: 100%;
+	text-align: right;
+	overflow: hidden;
+	-webkit-animation: marquee 20s linear infinite;
+	animation: marquee 20s linear infinite;
+}
+
+@
+-webkit-keyframes marquee { 0% {
+	transform: translateX(15%);
+}
+
+100%
+{
+transform
+:
+ 
+translateX
+(-100%);
+//
+ 
+姣忚楂�50
+
+    
+}
+}
+@
+keyframes marquee { 0% {
+	transform: translateX(15%);
+}
+
+100%
+{
+transform
+:
+ 
+translateX
+(-100%);
+//
+ 
+姣忚楂�50
+
+    
+}
+}
+@
+-webkit-keyframes marquee { 0% {
+	transform: translateX(15%);
+}
+
+100%
+{
+transform
+:
+ 
+translateX
+(-100%);
+//
+ 
+姣忚楂�50
+
+    
+}
+}
+
+/*鑳屾櫙*/
+body, html {
+	margin: 0px auto;
+	width: 100%;
+	padding: 0px;
+	font-size: 15px;
+	color: #000000;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#container {
+	margin: 0px auto;
+	text-align: left;
+	width: 85%;
+	height: 600px;
+}
+
+.name {
+	color: rgb(38, 124, 112);
+}
+
+.content {
+	padding-left: 25px;
+	color: #000;
+}
+
+.time {
+	padding-left: 15px;
+	color: #000;
+	font-size: 12px;
+	line-height: 1.6em;
+}
